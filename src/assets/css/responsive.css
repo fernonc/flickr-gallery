@@ -1,0 +1,38 @@
+/*Responsive*/
+@media (min-width: 1200px) {
+    .container {
+        width: 1183px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+/* Optional, different gutter size on mobile */
+@media (max-width: 800px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .photo-grid {
+        margin-left: -15px; /* gutter size offset */
+    }
+    .photo-grid_column {
+        padding-left: 15px; /* gutter size offset */
+    }
+    .photo-grid_column > div {
+        margin-bottom: 6px; /* space between items */
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media screen and (max-width: 620px) {
+    .searchBox:hover > .searchInput {
+        width: 150px;
+        padding: 0 6px;
+    }
+}
