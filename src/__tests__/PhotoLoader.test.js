@@ -14,6 +14,6 @@ describe('Photo loader notification', () => {
     input.value= 'input text';
     fireEvent.change(input);
     fireEvent.click(getByTestId('searchButton'));
-    expect(getByTestId('loaderAnimation').textContent).toBe('Loading...');
+    expect(getByTestId('loadingSpan').textContent).toBe('Loading...');
   })
 });

@@ -3,7 +3,7 @@ import Masonry from 'react-masonry-css';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import Photo from './Photo';
 
-//Masonry options
+// Masonry options
 const breakpointColumnsObj = {
     default: 5,
     1100: 5,
@@ -17,6 +17,7 @@ export default class PhotoContainer extends Component {
         
         const PhotoItems = this.props.data.map((photo, i) => {
             return (
+                // Single photo
                 <Photo key={i} photo={photo} />
              );
          });

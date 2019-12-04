@@ -9,12 +9,12 @@
         width: 970px;
     }
 }
-/* Optional, different gutter size on mobile */
 @media (max-width: 800px) {
     .container {
         padding-left: 0;
         padding-right: 0;
     }
+    /*Masonry*/
     .photo-grid {
         margin-left: -15px; /* gutter size offset */
     }
@@ -31,6 +31,7 @@
     }
 }
 @media screen and (max-width: 620px) {
+    /*Search input*/
     .searchBox:hover > .searchInput {
         width: 150px;
         padding: 0 6px;
