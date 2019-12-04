@@ -15,7 +15,7 @@ React photo gallery that uses the API from Flickr to retrieve and display images
 1. Navigate to a directory of choice
 2. Download the repository by typing the following command
 ```
-git clone https://github.com/fernonc/react-flickr-gallery.git
+git clone https://github.com/fernonc/flickr-gallery.git
 ```
 ## Usage
 ### Running Project File
